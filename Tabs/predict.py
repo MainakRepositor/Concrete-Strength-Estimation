@@ -43,7 +43,7 @@ def app(df, X, y):
 
     # Create a button to predict
     if st.button("Predict"):
-        # Get Estimation and model score
+       
         #Estimation, score = predict(X, y, features)
         score = random.randint(92,99)
         st.info("Predicted Sucessfully")
