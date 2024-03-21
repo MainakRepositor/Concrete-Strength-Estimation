@@ -3,6 +3,8 @@
 # Import necessary modules
 import streamlit as st
 
+import random
+
 # Import necessary functions from web_functions
 from web_functions import predict
 
